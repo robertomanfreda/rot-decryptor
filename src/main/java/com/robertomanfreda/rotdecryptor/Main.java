@@ -1,6 +1,5 @@
-package rotdecryptor;
+package com.robertomanfreda.rotdecryptor;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -30,7 +29,7 @@ public class Main {
 
     private static List<String> decoded = new ArrayList<>();
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         for (int i = 0; i < staticAlphabetLowercase.size(); i++) {
             System.out.println("Static lowercase  : " + staticAlphabetLowercase);
             System.out.println("Rotated lowercase : " + rotationalAlphabetLowercase);
